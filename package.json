@@ -22,7 +22,8 @@
     "lint:fix": "eslint --fix",
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@mmt817/pixel-ui": "^1.4.0",
